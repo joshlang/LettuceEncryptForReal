@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Josh Lang</Authors>
+    <Company>Josh Lang</Company>
+    <Product>LettuceEncryptForReal</Product>
+    <Description>A hack job of Nathan McMaster's LettuceEncrypt found here: https://github.com/natemcmaster/LettuceEncrypt
+This version works for .NET Core 5.0 avoiding "No credentials are available in the security package" errors</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Core" Version="2.2.0" />
+    <PackageReference Include="Certes" Version="2.3.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="System.Text.Json" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
