@@ -7,6 +7,9 @@
     <Product>LettuceEncryptForReal</Product>
     <Description>A hack job of Nathan McMaster's LettuceEncrypt found here: https://github.com/natemcmaster/LettuceEncrypt
 This version works for .NET Core 5.0 avoiding "No credentials are available in the security package" errors</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/joshlang/LettuceEncryptForReal</RepositoryUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
   
   <ItemGroup>
@@ -14,6 +17,13 @@ This version works for .NET Core 5.0 avoiding "No credentials are available in t
     <PackageReference Include="Certes" Version="2.3.4" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
     <PackageReference Include="System.Text.Json" Version="5.0.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
