@@ -4,4 +4,4 @@ A hack job of Nathan McMaster's LettuceEncrypt found here: https://github.com/na
 
 This version works for .NET Core 5.0 avoiding "No credentials are available in the security package" errors
 
-Nuget package: https://www.nuget.org/packages/LetsEncryptForReal/
+Nuget package: https://www.nuget.org/packages/LettuceEncryptForReal/
